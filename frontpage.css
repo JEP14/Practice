@@ -1,0 +1,233 @@
+/* Web fonts ----------- */
+
+.main-body {
+  background-color: white;
+  color: black;
+  font-family: 'Avenir', sans-serif;
+}
+
+.nav-bar {
+  display: flex;  
+  justify-content: center;
+  width: 100%;
+  position: center;
+}
+
+  .nav-bar > div {
+    flex: 1;
+}
+
+.nav-bar > div {
+  padding: 10px;
+  text-align: center;
+  font-size: 2em;
+  color: Black;  
+}
+
+.nav-bar a{
+  color: black;
+  letter-spacing: 2px; 
+  background: linear-gradient(0deg, white, 90%);
+  font-family: 'Avenir', sans-serif;
+  }
+
+
+.nav-bar > div:nth-child(1) {
+  background-color: white;
+  font-family: Arial, Helvetica, sans-serif;      
+}
+
+.nav-bar > div:nth-child(2) {
+  background-color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-bar > div:nth-child(3) {
+  background-color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-bar > div:nth-child(4) {
+  background-color: white;
+  font-family: Arial, Helvetica, sans-serif;  
+}
+
+.header-title {
+      text-align: center;
+      padding-top: 20%;
+      padding-bottom: 25%;
+      font-family: 'Avenir', sans-serif;
+      color: black;    
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(0deg, white, transparent 5%),
+      
+                  url('websitewallpaper.jpeg');
+      background-size: 1920px 900px no-repeat;               
+      }
+
+.main-title {
+  font-family: 'Avenir', sans-serif;
+  font-size: 80px;  
+  font-weight: 500;    
+  }
+      
+.border-line {
+      border-top: solid 1px black;     
+      border-width: 100%      
+}
+
+/* Portfolio section */
+
+ .portfolio-section {    
+    overflow: auto;  
+    position: relative;
+    margin: 0% 5% 1% 5%;
+     }
+
+    
+
+      .image-a {
+      float: left;
+      margin: 2% 5% 2% 5%;
+      padding-left: 10%;     
+        }
+  
+      .image-b {
+        float: right;  
+        margin: 2% 5% 2% 5%;  
+        padding-right: 10%;
+      }
+
+      .image-c {
+        float: left;
+        margin: 2% 5% 2% 5%;
+        padding-left: 10%;
+      }
+
+      .image-d {
+        float: right;
+        margin: 2% 5% 2% 5%;
+        padding-right: 10%;
+      }
+
+
+      .image {
+        /* border: solid red 5px;    */
+        background-color: white;
+        color: black;   
+        text-align: center;
+      }
+
+      .portfolio-title,
+      .about-title,
+      .contact-title {
+        color: black;
+        letter-spacing: 3px;
+        text-align: center;
+        margin-bottom: 10px;
+      }
+  
+/* About section  -------------------  */
+
+.about-section {
+  margin: 5% 5% 15% 5%;
+
+  position: static;
+}
+
+.about-list {
+  padding-top: 7%;
+  padding-left: 30%;
+  font-size: 2em;
+  }
+
+.profile-image {
+  border-radius: 40%;
+  float: left;
+  
+}
+
+  /* Contact Section ---------  */
+
+  .contact-email {
+    padding: 5% 5% 5% 5%;
+    text-align: center; 
+    font-size: 20px;
+  }
+
+  .social-media {
+    margin-left: 45%;
+    margin-right: 45%;
+    margin-top: 30px; 
+    float: none; 
+  }
+
+
+/* Float Clearfix ------------------ */
+
+.group:after {
+  content: "";
+  display: block;
+  clear: both;   
+} 
+
+ 
+
+/* Pseudo-classes */
+
+
+    /* a:link {
+      color: black; 
+    }
+
+    a:visited {
+      color: black; 
+    }
+
+    a:hover {
+      color: forestgreen; 
+    }
+
+    a:active {
+      color: lightcoral;
+    }
+
+    a:focus {
+      color: white; 
+      background-color: orange; 
+    } */
+
+
+
+
+
+
+/* Media Queries ----------- */
+
+
+/* @media screen and (max-width: 960px) {
+  .main-body {
+    background: royalblue;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    background: darkred;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 700px) {
+  .main-body {
+    background: seagreen;
+  }
+  p {
+    color: white;
+  }
+} */
+
+
+/* 
+@media (max-width: 768px) { .header-title{ font-size: 1.4rem; } h1 { font-size: 5rem; } } */
+
