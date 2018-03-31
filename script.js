@@ -1,7 +1,8 @@
-var str = '49 steps';
-var num = parseInt(str);
-// num now holds the number 49
-
-var str = '102.99%';
-var num = parseFloat(str);
-// num now holds the number 102.99
+var input1 = prompt("Please type a starting number");
+var bottomNumber = parseInt(input1); 
+var input = prompt("Please type a number");
+var topNumber = parseInt(input); 
+var randomNumber = Math.floor(Math.random() * (topNumber - bottomNumber + 1)) + bottomNumber; 
+var message = "<p>" + randomNumber + " is a number between 1 and " + topNumber + " .</p>";
+document.write(message); 
+ 
